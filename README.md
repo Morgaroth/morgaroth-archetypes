@@ -9,5 +9,5 @@ git clone -b spray_app_archetype git@github.com:Morgaroth/morgaroth-archetypes.g
 cd new_spray_app
 git remote remove origin
 cd ..
-
+ 
 ```
