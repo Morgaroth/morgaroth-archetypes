@@ -7,7 +7,9 @@ project contains archetypes for various projects in scala/sbt
 ```bash
 git clone -b spray_app_archetype git@github.com:Morgaroth/morgaroth-archetypes.git new_spray_app
 cd new_spray_app
-git remote remove origin
+rm -rf .git
+git init
+git add -A
+git commit -m "initial project from spray app archetype"
 cd ..
- 
 ```
